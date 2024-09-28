@@ -20,6 +20,8 @@ user 0.88
 sys 0.22
 ```
 
+Numbers without -O3:
+
 ```
 $ time -p ./test_modified
 OK
@@ -27,3 +29,12 @@ real 1.06
 user 0.80
 sys 0.20
 ```
+
+Numbers with -O3:
+
+```
+$ time -p ./test_modified
+OK
+real 0.38
+user 0.16
+sys 0.16

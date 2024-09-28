@@ -1,1 +1,1 @@
-CXXFLAGS=-Inhohmann/include -Icppitertools
+CXXFLAGS=-Inhohmann/include -Icppitertools -O3
